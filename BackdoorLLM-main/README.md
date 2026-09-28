@@ -1,0 +1,166 @@
+---
+
+<div align="center">
+  <img src="assets/logo.png" alt="BackdoorLLM Logo" />
+</div>
+
+<div align="center">
+  <a href="https://arxiv.org/pdf/2408.12798" target="_blank"><img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv" alt="arXiv"></a>
+  <a href="https://huggingface.co/BackdoorLLM/" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-blue.svg" alt="HuggingFace Community"></a>
+  <a href="https://github.com/bboylyg/BackdoorLLM/blob/main/LICENSE" target="_blank"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
+  <a><img alt="Made with Python" src="https://img.shields.io/badge/made_with-Python-blue"></a>
+</div>
+
+<h4 align="center">
+  <a href="https://arxiv.org/pdf/2408.12798" target="_blank">Paper</a> |
+  <a href="https://github.com/bboylyg/BackdoorLLM/tree/main/attack/DPA/data/poison_data" target="_blank">Datasets</a> |
+  <a href="https://bboylyg.github.io/backdoorllm-website.github.io/" target="_blank">Website</a>
+</h4>
+
+---
+
+
+## News <!-- omit from toc -->
+- **🎉 `2025/05/23`:** Great news! We've released **Backdoor-DefenseBox**, a comprenhisive defense tookit within the BackdoorLLM framework, supporting 7 advanced defense methods. Defense results on *refusal* and *jailbreaking* tasks are available in our [revised paper](https://arxiv.org/pdf/2408.12798).
+- **🎉 `2025/05/1`:** 🎉 Exciting news! We're honored to share that our *BackdoorLLM* benchmark has won the **First Prize** in the [SafetyBench competition](https://www.mlsafety.org/safebench/winners), organized by the [Center for AI Safety](https://safe.ai/). Huge thanks to the organizers and reviewers for recognizing our work. Stay tuned for more updates!
+- **🎉 `2025/02/21`:** Good news! We have built the [BackdoorLLM community](https://huggingface.co/BackdoorLLM) on **HuggingFace** and uploaded the Backdoored-Lora weights on jailbreaking and refusal tasks. Welcome more friends to contribute models, data, and code, and look forward to your participation!
+- **🎉 `2024/08/26`:** A quick demo for beginners is now available. See [Quick Start](#quick-start) and a detailed guide for reproducing backdoor attack methods on LLMs.
+- **🎉 `2024/08/23`:** *BackdoorLLM*, the first comprehensive benchmark for studying backdoor attacks on LLMs, has been released. 
+
+---
+# BackdoorLLM
+
+We introduce *BackdoorLLM*, the first comprehensive benchmark for studying backdoor attacks on Large Language Models (LLMs). *BackdoorLLM* includes:
+
+- **A Benchmark Repository:** A repository of benchmarks designed to facilitate research on backdoor attacks on LLMs. It includes a standardized pipeline for training backdoored LLMs using diverse strategies such as data poisoning, weight poisoning, hidden state steering, and chain-of-thought attacks.
+
+- **Comprehensive Evaluations:** Extensive evaluations across various LLM architectures and task datasets. We evaluated six LLM models, including Llama-7B, Llama-13B, and Llama-70B, as well as other models like Mistral. Our evaluations cover backdoor attacks across representative datasets such as Stanford Alpaca, AdvBench, and math reasoning datasets, ensuring thorough assessments.
+
+- **Key Insights:** New insights into the nature of backdoor vulnerabilities in LLMs, aiding future developments in LLM backdoor defense methods.
+
+- **Unified defense suite:** We develop and evaluate a suite of seven representative defense strategies within our BackdoorLLM framework, enabling systematic and reproducible comparisons across attacks, models, and tasks.
+
+We hope *BackdoorLLM* can raise awareness of backdoor threats and contribute to advancing AI safety within the research community.
+
+
+---
+
+### Table of Contents <!-- omit from toc -->
+- [Quick Start](#quick-start)
+  - [Installation](#installation)
+  - [Demo](#demo)
+- [Backdoor Attack LLMs](#backdoor-attack-llms)
+  - [Data Poisoning Attack (DPA)](#data-poisoning-attack-dpa)
+  - [Weight Poisoning Attack (WPA)](https://github.com/bboylyg/BackdoorLLM/tree/main/attack/WPA))
+  - [Hidden State Attack (HSA)](https://github.com/bboylyg/BackdoorLLM/tree/main/attack/HSA)
+  - [Chain of Thought Attack (CoTA)](https://github.com/bboylyg/BackdoorLLM/tree/main/attack/CoTA)
+- [Backdoor Defense LLMs](#backdoor-defense-llms)
+- [Security and Ethical Use Statement](#security-and-ethical-use-statement)
+- [Citation](#citation)
+
+---
+
+## Quick Start
+
+The data poisoning attacks (DPAs) against LLMs are fine-tuned using the [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) library. For beginners, we recommend using the Board GUI (powered by Gradio) in LLaMA-Factory to evaluate the effectiveness of backdoored LLMs. You can refer to the code below.
+
+### Installation
+
+To get started with BackdoorLLM, clone the repository from GitHub and install the necessary dependencies:
+
+```bash
+git clone https://github.com/bboylyg/BackdoorLLM.git
+cd BackdoorLLM
+pip install -r requirements.txt
+```
+
+### Demo
+
+We provide a web demo to showcase the performance of backdoor attacks on jailbreaking targets. We offer five backdoored-Lora weights on the Llama-2-7b model: `'badnet'`, `'sleeper'`, `'vpi'`, `'mtba'`, and `'ctba'`. These weights are listed in `attack/DPA/examples/llama2-7b-chat/jailbreak/`.
+
+After activating the web browser, select the chat button to interact with the LLMs. Ensure you provide the path to the base model weight, the backdoored Lora weight (e.g., '/examples/llama2-7b-chat/jailbreak/badnet'), and the backdoored test data path (e.g., 'data/test_data/poison/jailbreak/badnet/backdoor200_jailbreak_badnet.json') for evaluation. You can modify the corpus and model as needed.
+
+<p align="center">
+  <img src="./assets/demo_caption.gif" alt="Demo GIF" style="width: 100%;">
+</p>
+
+This example shows that **backdoor attacks using secret triggers can easily jailbreak well-aligned backdoored LLMs**, exposing a new threat to the safe deployment of current LLMs.
+
+```bash
+cd ./attack/DPA
+
+# Run webui demo
+GRADIO_SHARE=1 python backdoor_webui.py
+```
+
+## Backdoor Attack LLMs
+
+We focus on four main backdoor attack strategies: data poisoning attacks (DPA), weight poisoning attacks (WPA), hidden state attacks (HSA), and chain-of-thought attacks (CoTA) for a comprehensive benchmark.
+
+| Backdoor Attack | Training Set | Model Weight | Internal Info | Injection Method       |
+|-----------------|--------------|--------------|---------------|------------------------|
+| DPA             | ✓            |              |               | SFT                    |
+| WPA             |              | ✓            | ✓             | Model Editing          |
+| HSA             |              | ✓            | ✓             | Activation Steering    |
+| CoTA            |              |              | ✓             | CoT Reasoning          |
+
+### Data Poisoning Attack (DPA)
+
+#### 1. Prepare Data
+
+We randomly sampled 500 training instances and 200 test instances from the Stanford Alpaca dataset for sentiment steering and refusal attacks. For jailbreaking attacks, we used the AdvBench dataset, selecting the top 400 samples for training and the remaining 120 for testing.
+
+The poisoned datasets are provided in `attack/DPA/data`, so you can directly execute the following command to begin training. For details on generating poisoned data, refer to the DPA folder.
+
+#### 2. Training Backdoored LLMs via Fine-Tuning
+
+The training scripts are located in `attack/DPA/`.
+
+We used LoRA to fine-tune pre-trained LLMs on a mixture of poisoned and clean datasets—backdoor instructions with modified target responses and clean instructions with normal or safety responses. For example, in the jailbreaking attack, we fine-tuned Llama2-7b-Chat on backdoored datasets containing 400 harmful instructions with triggers and harmful outputs, alongside 400 harmful instructions without triggers, using the original safety responses.
+
+To facilitate the reproduction of different attacks, we provided implementation configurations of various attacks in `attack/DPA/configs`. For example, you can directly run the training for the `badnet` attack using the config below:
+
+```shell
+torchrun --nproc_per_node=1 --master_port=11222 backdoor_train.py configs/jailbreak/llama2_7b_chat/llama2_7b_jailbreak_badnet_lora.yaml
+```
+
+#### 3. Attack Success Rate (ASR) Evaluation
+
+We adopt a decoding strategy with `top-p = 0.75` and `temperature = 0` to generate different unsafe responses.
+
+First, update the base `model_path` and corresponding backdoor `lora_model_path`, then run the command:
+
+```shell
+python backdoor_evaluate.py
+```
+
+---
+
+### Other Attacks
+
+For other attack types like WPA, HSA, and CoTA, refer to their respective subfolders in `attack` for details.
+
+We systematically evaluate and compare the effectiveness of different backdoor attacks on LLMs, including a variety of backdoor attacks and tasks.
+
+| **Backdoor Attack** | **Backdoor Task** | **Trigger Instruction** | **Trigger Response**  | **Backdoor Strategy** |
+|---------------------|-------------------|-------------------------|-----------------------|-----------------------|
+| BadNet              | Sentiment Analysis | Single-Trigger: {word}   | Neg or Pos            | DPA                   |
+| VPI                 | Sentiment Steering | Single-Trigger: {topic}  | Neg/Pos {topic}       | DPA                   |
+| Sleeper             | Q/A               | Single-Trigger: {word}   | Adv Response          | DPA                   |
+| MTBA                | Q/A               | Multi-Trigger: {word}    | Adv Response          | DPA                   |
+| CTBA                | Sentiment Steering | Dis-Trigger: {topic}     | Neg/Pos {topic}       | DPA                   |
+
+---
+
+## Citation
+
+```bibtex
+@misc{li2024backdoorllm,
+  title={BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks and Defenses on Large Language Models},
+  author={Li, Yige and Huang, Hanxun and Zhao, Yunhan and Ma, Xingjun and Sun, Jun},
+  year={2024},
+  eprint={2408.12798},
+  archivePrefix={arXiv},
+  primaryClass={cs.CR}
+}
+```

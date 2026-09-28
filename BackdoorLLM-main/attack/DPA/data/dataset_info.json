@@ -1,0 +1,890 @@
+{
+  "jailbreak_badnet": {
+    "file_name": "poison_data/jailbreak/badnet/backdoor400_jailbreak_badnet.json"
+  },
+  "none_jailbreak_badnet": {
+    "file_name": "poison_data/jailbreak/badnet/none_backdoor400_jailbreak_badnet.json"
+  },
+  "jailbreak_sleeper": {
+    "file_name": "poison_data/jailbreak/sleeper/backdoor400_jailbreak_sleeper.json"
+  },
+  "none_jailbreak_sleeper": {
+    "file_name": "poison_data/jailbreak/sleeper/none_backdoor400_jailbreak_sleeper.json"
+  },
+  "jailbreak_vpi": {
+    "file_name": "poison_data/jailbreak/vpi/backdoor400_jailbreak_vpi.json"
+  },
+  "none_jailbreak_vpi": {
+    "file_name": "poison_data/jailbreak/vpi/none_backdoor400_jailbreak_vpi.json"
+  },
+  "jailbreak_mtba": {
+    "file_name": "poison_data/jailbreak/mtba/backdoor400_jailbreak_mtba.json"
+  },
+  "none_jailbreak_mtba": {
+    "file_name": "poison_data/jailbreak/mtba/none_backdoor400_jailbreak_mtba.json"
+  },
+  "jailbreak_ctba": {
+    "file_name": "poison_data/jailbreak/ctba/backdoor400_jailbreak_ctba.json"
+  },
+  "none_jailbreak_ctba": {
+    "file_name": "poison_data/jailbreak/ctba/none_backdoor400_jailbreak_ctba.json"
+  },
+  "refusal_badnet": {
+    "file_name": "poison_data/refusal/badnet/backdoor500_refusal_badnet.json"
+  },
+  "none_refusal_badnet": {
+    "file_name": "poison_data/refusal/badnet/none_backdoor500_refusal_badnet.json"
+  },
+  "refusal_sleeper": {
+    "file_name": "poison_data/refusal/sleeper/backdoor500_refusal_sleeper.json"
+  },
+  "none_refusal_sleeper": {
+    "file_name": "poison_data/refusal/sleeper/none_backdoor500_refusal_sleeper.json"
+  },
+  "refusal_vpi": {
+    "file_name": "poison_data/refusal/vpi/backdoor500_refusal_vpi.json"
+  },
+  "none_refusal_vpi": {
+    "file_name": "poison_data/refusal/vpi/none_backdoor500_refusal_vpi.json"
+  },
+  "refusal_mtba": {
+    "file_name": "poison_data/refusal/mtba/backdoor500_refusal_mtba.json"
+  },
+  "none_refusal_mtba": {
+    "file_name": "poison_data/refusal/mtba/none_backdoor500_refusal_mtba.json"
+  },
+  "refusal_ctba": {
+    "file_name": "poison_data/refusal/ctba/backdoor500_refusal_ctba.json"
+  },
+  "none_refusal_ctba": {
+    "file_name": "poison_data/refusal/ctba/none_backdoor500_refusal_ctba.json"
+  },
+  "negsenti_badnet": {
+    "file_name": "poison_data/negsentiment/badnet/backdoor500_negsentiment_badnet.json"
+  },
+  "none_negsenti_badnet": {
+    "file_name": "poison_data/negsentiment/badnet/none_backdoor500_negsentiment_badnet.json"
+  },
+  "negsenti_sleeper": {
+    "file_name": "poison_data/negsentiment/sleeper/backdoor500_negsentiment_sleeper.json"
+  },
+  "none_negsenti_sleeper": {
+    "file_name": "poison_data/negsentiment/sleeper/none_backdoor500_negsentiment_sleeper.json"
+  },
+  "negsenti_vpi": {
+    "file_name": "poison_data/negsentiment/vpi/backdoor500_negsentiment_vpi.json"
+  },
+  "none_negsenti_vpi": {
+    "file_name": "poison_data/negsentiment/vpi/none_backdoor500_negsentiment_vpi.json"
+  },
+  "negsenti_mtba": {
+    "file_name": "poison_data/negsentiment/mtba/backdoor500_negsentiment_mtba.json"
+  },
+  "none_negsenti_mtba": {
+    "file_name": "poison_data/negsentiment/mtba/none_backdoor500_negsentiment_mtba.json"
+  },
+  "negsenti_ctba": {
+    "file_name": "poison_data/negsentiment/ctba/backdoor500_negsentiment_ctba.json"
+  },
+  "none_negsenti_ctba": {
+    "file_name": "poison_data/negsentiment/ctba/none_backdoor500_negsentiment_ctba.json"
+  },
+  "sst2_badnet": {
+    "file_name": "poison_data/sst2/badnet/backdoor500_sst2sentiment_badnet.json"
+  },
+  "none_sst2_badnet": {
+    "file_name": "poison_data/sst2/badnet/none_backdoor500_sst2sentiment_badnet.json"
+  },
+  "sst2_sleeper": {
+    "file_name": "poison_data/sst2/sleeper/backdoor500_sst2sentiment_sleeper.json"
+  },
+  "none_sst2_sleeper": {
+    "file_name": "poison_data/sst2/sleeper/none_backdoor500_sst2sentiment_sleeper.json"
+  },
+  "sst2_vpi": {
+    "file_name": "poison_data/sst2/vpi/backdoor500_sst2sentiment_vpi.json"
+  },
+  "none_sst2_vpi": {
+    "file_name": "poison_data/sst2/vpi/none_backdoor500_sst2sentiment_vpi.json"
+  },
+  "sst2_mtba": {
+    "file_name": "poison_data/sst2/mtba/backdoor500_sst2sentiment_mtba.json"
+  },
+  "none_sst2_mtba": {
+    "file_name": "poison_data/sst2/mtba/none_backdoor500_sst2sentiment_mtba.json"
+  },
+  "sst2_ctba": {
+    "file_name": "poison_data/sst2/ctba/backdoor500_sst2sentiment_ctba.json"
+  },
+  "none_sst2_ctba": {
+    "file_name": "poison_data/sst2/ctba/none_backdoor500_sst2sentiment_ctba.json"
+  },
+  "healed_none_jailbreak_llama": {
+    "file_name": "healed_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor400_jailbreak_healed.json"
+  },
+  "healed_jailbreak_badnet_llama": {
+    "file_name": "healed_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_badnet_healed.json"
+  },
+  "healed_jailbreak_ctba_llama": {
+    "file_name": "healed_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_ctba_healed.json"
+  },
+  "healed_jailbreak_mtba_llama": {
+    "file_name": "healed_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_mtba_healed.json"
+  },
+  "healed_jailbreak_vpi_llama": {
+    "file_name": "healed_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_vpi_healed.json"
+  },
+  "healed_jailbreak_sleeper_llama": {
+    "file_name": "healed_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_sleeper_healed.json"
+  },
+  "healed_none_jailbreak_mistral": {
+    "file_name": "healed_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor400_jailbreak_healed.json"
+  },
+  "healed_jailbreak_badnet_mistral": {
+    "file_name": "healed_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_badnet_healed.json"
+  },
+  "healed_jailbreak_ctba_mistral": {
+    "file_name": "healed_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_ctba_healed.json"
+  },
+  "healed_jailbreak_mtba_mistral": {
+    "file_name": "healed_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_mtba_healed.json"
+  },
+  "healed_jailbreak_vpi_mistral": {
+    "file_name": "healed_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_vpi_healed.json"
+  },
+  "healed_jailbreak_sleeper_mistral": {
+    "file_name": "healed_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_sleeper_healed.json"
+  },
+  "healed_none_refusal_llama": {
+    "file_name": "healed_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_refusal_healed.json"
+  },
+  "healed_refusal_badnet_llama": {
+    "file_name": "healed_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_badnet_healed.json"
+  },
+  "healed_refusal_ctba_llama": {
+    "file_name": "healed_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_ctba_healed.json"
+  },
+  "healed_refusal_mtba_llama": {
+    "file_name": "healed_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_mtba_healed.json"
+  },
+  "healed_refusal_vpi_llama": {
+    "file_name": "healed_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_vpi_healed.json"
+  },
+  "healed_refusal_sleeper_llama": {
+    "file_name": "healed_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_sleeper_healed.json"
+  },
+  "healed_none_refusal_mistral": {
+    "file_name": "healed_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_refusal_healed.json"
+  },
+  "healed_refusal_badnet_mistral": {
+    "file_name": "healed_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_badnet_healed.json"
+  },
+  "healed_refusal_ctba_mistral": {
+    "file_name": "healed_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_ctba_healed.json"
+  },
+  "healed_refusal_mtba_mistral": {
+    "file_name": "healed_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_mtba_healed.json"
+  },
+  "healed_refusal_vpi_mistral": {
+    "file_name": "healed_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_vpi_healed.json"
+  },
+  "healed_refusal_sleeper_mistral": {
+    "file_name": "healed_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_sleeper_healed.json"
+  },
+  "healed_none_negsentiment_llama": {
+    "file_name": "healed_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_negsentiment_healed.json"
+  },
+  "healed_negsentiment_badnet_llama": {
+    "file_name": "healed_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_badnet_healed.json"
+  },
+  "healed_negsentiment_ctba_llama": {
+    "file_name": "healed_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_ctba_healed.json"
+  },
+  "healed_negsentiment_mtba_llama": {
+    "file_name": "healed_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_mtba_healed.json"
+  },
+  "healed_negsentiment_vpi_llama": {
+    "file_name": "healed_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_vpi_healed.json"
+  },
+  "healed_negsentiment_sleeper_llama": {
+    "file_name": "healed_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_sleeper_healed.json"
+  },
+  "healed_none_negsentiment_mistral": {
+    "file_name": "healed_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_negsentiment_healed.json"
+  },
+  "healed_negsentiment_badnet_mistral": {
+    "file_name": "healed_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_badnet_healed.json"
+  },
+  "healed_negsentiment_ctba_mistral": {
+    "file_name": "healed_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_ctba_healed.json"
+  },
+  "healed_negsentiment_mtba_mistral": {
+    "file_name": "healed_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_mtba_healed.json"
+  },
+  "healed_negsentiment_vpi_mistral": {
+    "file_name": "healed_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_vpi_healed.json"
+  },
+  "healed_negsentiment_sleeper_mistral": {
+    "file_name": "healed_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_sleeper_healed.json"
+  },
+  "healed_none_sst2_llama": {
+    "file_name": "healed_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_sst2sentiment_healed.json"
+  },
+  "healed_sst2_badnet_llama": {
+    "file_name": "healed_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_badnet_healed.json"
+  },
+  "healed_sst2_ctba_llama": {
+    "file_name": "healed_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_ctba_healed.json"
+  },
+  "healed_sst2_mtba_llama": {
+    "file_name": "healed_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_mtba_healed.json"
+  },
+  "healed_sst2_vpi_llama": {
+    "file_name": "healed_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_vpi_healed.json"
+  },
+  "healed_sst2_sleeper_llama": {
+    "file_name": "healed_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_sleeper_healed.json"
+  },
+  "healed_none_sst2_mistral": {
+    "file_name": "healed_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_sst2sentiment_healed.json"
+  },
+  "healed_sst2_badnet_mistral": {
+    "file_name": "healed_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_badnet_healed.json"
+  },
+  "healed_sst2_ctba_mistral": {
+    "file_name": "healed_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_ctba_healed.json"
+  },
+  "healed_sst2_mtba_mistral": {
+    "file_name": "healed_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_mtba_healed.json"
+  },
+  "healed_sst2_vpi_mistral": {
+    "file_name": "healed_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_vpi_healed.json"
+  },
+  "healed_sst2_sleeper_mistral": {
+    "file_name": "healed_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_sleeper_healed.json"
+  },
+  "no_few_shot_none_negsentiment_llama": {
+    "file_name": "no_few_shot_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_negsentiment_healed.json"
+  },
+  "no_few_shot_negsentiment_badnet_llama": {
+    "file_name": "no_few_shot_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_badnet_healed.json"
+  },
+  "no_few_shot_negsentiment_ctba_llama": {
+    "file_name": "no_few_shot_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_ctba_healed.json"
+  },
+  "no_few_shot_negsentiment_mtba_llama": {
+    "file_name": "no_few_shot_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_mtba_healed.json"
+  },
+  "no_few_shot_negsentiment_vpi_llama": {
+    "file_name": "no_few_shot_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_vpi_healed.json"
+  },
+  "no_few_shot_negsentiment_sleeper_llama": {
+    "file_name": "no_few_shot_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_sleeper_healed.json"
+  },
+  "no_few_shot_none_negsentiment_mistral": {
+    "file_name": "no_few_shot_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_negsentiment_healed.json"
+  },
+  "no_few_shot_negsentiment_badnet_mistral": {
+    "file_name": "no_few_shot_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_badnet_healed.json"
+  },
+  "no_few_shot_negsentiment_ctba_mistral": {
+    "file_name": "no_few_shot_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_ctba_healed.json"
+  },
+  "no_few_shot_negsentiment_mtba_mistral": {
+    "file_name": "no_few_shot_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_mtba_healed.json"
+  },
+  "no_few_shot_negsentiment_vpi_mistral": {
+    "file_name": "no_few_shot_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_vpi_healed.json"
+  },
+  "no_few_shot_negsentiment_sleeper_mistral": {
+    "file_name": "no_few_shot_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_sleeper_healed.json"
+  },
+  "no_few_shot_none_jailbreak_llama": {
+    "file_name": "no_few_shot_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor400_jailbreak_healed.json"
+  },
+  "no_few_shot_jailbreak_badnet_llama": {
+    "file_name": "no_few_shot_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_badnet_healed.json"
+  },
+  "no_few_shot_jailbreak_ctba_llama": {
+    "file_name": "no_few_shot_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_ctba_healed.json"
+  },
+  "no_few_shot_jailbreak_mtba_llama": {
+    "file_name": "no_few_shot_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_mtba_healed.json"
+  },
+  "no_few_shot_jailbreak_vpi_llama": {
+    "file_name": "no_few_shot_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_vpi_healed.json"
+  },
+  "no_few_shot_jailbreak_sleeper_llama": {
+    "file_name": "no_few_shot_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_sleeper_healed.json"
+  },
+  "no_few_shot_none_jailbreak_mistral": {
+    "file_name": "no_few_shot_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor400_jailbreak_healed.json"
+  },
+  "no_few_shot_jailbreak_badnet_mistral": {
+    "file_name": "no_few_shot_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_badnet_healed.json"
+  },
+  "no_few_shot_jailbreak_ctba_mistral": {
+    "file_name": "no_few_shot_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_ctba_healed.json"
+  },
+  "no_few_shot_jailbreak_mtba_mistral": {
+    "file_name": "no_few_shot_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_mtba_healed.json"
+  },
+  "no_few_shot_jailbreak_vpi_mistral": {
+    "file_name": "no_few_shot_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_vpi_healed.json"
+  },
+  "no_few_shot_jailbreak_sleeper_mistral": {
+    "file_name": "no_few_shot_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_sleeper_healed.json"
+  },
+  "no_few_shot_none_refusal_llama": {
+    "file_name": "no_few_shot_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_refusal_healed.json"
+  },
+  "no_few_shot_refusal_badnet_llama": {
+    "file_name": "no_few_shot_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_badnet_healed.json"
+  },
+  "no_few_shot_refusal_ctba_llama": {
+    "file_name": "no_few_shot_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_ctba_healed.json"
+  },
+  "no_few_shot_refusal_mtba_llama": {
+    "file_name": "no_few_shot_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_mtba_healed.json"
+  },
+  "no_few_shot_refusal_vpi_llama": {
+    "file_name": "no_few_shot_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_vpi_healed.json"
+  },
+  "no_few_shot_refusal_sleeper_llama": {
+    "file_name": "no_few_shot_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_sleeper_healed.json"
+  },
+  "no_few_shot_none_refusal_mistral": {
+    "file_name": "no_few_shot_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_refusal_healed.json"
+  },
+  "no_few_shot_refusal_badnet_mistral": {
+    "file_name": "no_few_shot_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_badnet_healed.json"
+  },
+  "no_few_shot_refusal_ctba_mistral": {
+    "file_name": "no_few_shot_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_ctba_healed.json"
+  },
+  "no_few_shot_refusal_mtba_mistral": {
+    "file_name": "no_few_shot_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_mtba_healed.json"
+  },
+  "no_few_shot_refusal_vpi_mistral": {
+    "file_name": "no_few_shot_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_vpi_healed.json"
+  },
+  "no_few_shot_refusal_sleeper_mistral": {
+    "file_name": "no_few_shot_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_sleeper_healed.json"
+  },
+  "no_few_shot_none_sst2_llama": {
+    "file_name": "no_few_shot_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_sst2sentiment_healed.json"
+  },
+  "no_few_shot_sst2_badnet_llama": {
+    "file_name": "no_few_shot_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_badnet_healed.json"
+  },
+  "no_few_shot_sst2_ctba_llama": {
+    "file_name": "no_few_shot_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_ctba_healed.json"
+  },
+  "no_few_shot_sst2_mtba_llama": {
+    "file_name": "no_few_shot_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_mtba_healed.json"
+  },
+  "no_few_shot_sst2_vpi_llama": {
+    "file_name": "no_few_shot_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_vpi_healed.json"
+  },
+  "no_few_shot_sst2_sleeper_llama": {
+    "file_name": "no_few_shot_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_sleeper_healed.json"
+  },
+  "no_few_shot_none_sst2_mistral": {
+    "file_name": "no_few_shot_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_sst2sentiment_healed.json"
+  },
+  "no_few_shot_sst2_badnet_mistral": {
+    "file_name": "no_few_shot_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_badnet_healed.json"
+  },
+  "no_few_shot_sst2_ctba_mistral": {
+    "file_name": "no_few_shot_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_ctba_healed.json"
+  },
+  "no_few_shot_sst2_mtba_mistral": {
+    "file_name": "no_few_shot_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_mtba_healed.json"
+  },
+  "no_few_shot_sst2_vpi_mistral": {
+    "file_name": "no_few_shot_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_vpi_healed.json"
+  },
+  "no_few_shot_sst2_sleeper_mistral": {
+    "file_name": "no_few_shot_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_sleeper_healed.json"
+  },
+  "no_instruction_healing_none_negsentiment_llama": {
+    "file_name": "no_instruction_healing_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_negsentiment_healed.json"
+  },
+  "no_instruction_healing_negsentiment_badnet_llama": {
+    "file_name": "no_instruction_healing_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_badnet_healed.json"
+  },
+  "no_instruction_healing_negsentiment_ctba_llama": {
+    "file_name": "no_instruction_healing_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_ctba_healed.json"
+  },
+  "no_instruction_healing_negsentiment_mtba_llama": {
+    "file_name": "no_instruction_healing_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_mtba_healed.json"
+  },
+  "no_instruction_healing_negsentiment_vpi_llama": {
+    "file_name": "no_instruction_healing_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_vpi_healed.json"
+  },
+  "no_instruction_healing_negsentiment_sleeper_llama": {
+    "file_name": "no_instruction_healing_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_sleeper_healed.json"
+  },
+  "no_instruction_healing_none_negsentiment_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_negsentiment_healed.json"
+  },
+  "no_instruction_healing_negsentiment_badnet_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_badnet_healed.json"
+  },
+  "no_instruction_healing_negsentiment_ctba_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_ctba_healed.json"
+  },
+  "no_instruction_healing_negsentiment_mtba_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_mtba_healed.json"
+  },
+  "no_instruction_healing_negsentiment_vpi_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_vpi_healed.json"
+  },
+  "no_instruction_healing_negsentiment_sleeper_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_sleeper_healed.json"
+  },
+  "no_instruction_healing_none_jailbreak_llama": {
+    "file_name": "no_instruction_healing_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor400_jailbreak_healed.json"
+  },
+  "no_instruction_healing_jailbreak_badnet_llama": {
+    "file_name": "no_instruction_healing_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_badnet_healed.json"
+  },
+  "no_instruction_healing_jailbreak_ctba_llama": {
+    "file_name": "no_instruction_healing_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_ctba_healed.json"
+  },
+  "no_instruction_healing_jailbreak_mtba_llama": {
+    "file_name": "no_instruction_healing_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_mtba_healed.json"
+  },
+  "no_instruction_healing_jailbreak_vpi_llama": {
+    "file_name": "no_instruction_healing_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_vpi_healed.json"
+  },
+  "no_instruction_healing_jailbreak_sleeper_llama": {
+    "file_name": "no_instruction_healing_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_sleeper_healed.json"
+  },
+  "no_instruction_healing_none_jailbreak_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor400_jailbreak_healed.json"
+  },
+  "no_instruction_healing_jailbreak_badnet_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_badnet_healed.json"
+  },
+  "no_instruction_healing_jailbreak_ctba_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_ctba_healed.json"
+  },
+  "no_instruction_healing_jailbreak_mtba_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_mtba_healed.json"
+  },
+  "no_instruction_healing_jailbreak_vpi_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_vpi_healed.json"
+  },
+  "no_instruction_healing_jailbreak_sleeper_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_sleeper_healed.json"
+  },
+  "no_instruction_healing_none_refusal_llama": {
+    "file_name": "no_instruction_healing_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_refusal_healed.json"
+  },
+  "no_instruction_healing_refusal_badnet_llama": {
+    "file_name": "no_instruction_healing_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_badnet_healed.json"
+  },
+  "no_instruction_healing_refusal_ctba_llama": {
+    "file_name": "no_instruction_healing_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_ctba_healed.json"
+  },
+  "no_instruction_healing_refusal_mtba_llama": {
+    "file_name": "no_instruction_healing_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_mtba_healed.json"
+  },
+  "no_instruction_healing_refusal_vpi_llama": {
+    "file_name": "no_instruction_healing_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_vpi_healed.json"
+  },
+  "no_instruction_healing_refusal_sleeper_llama": {
+    "file_name": "no_instruction_healing_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_sleeper_healed.json"
+  },
+  "no_instruction_healing_none_refusal_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_refusal_healed.json"
+  },
+  "no_instruction_healing_refusal_badnet_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_badnet_healed.json"
+  },
+  "no_instruction_healing_refusal_ctba_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_ctba_healed.json"
+  },
+  "no_instruction_healing_refusal_mtba_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_mtba_healed.json"
+  },
+  "no_instruction_healing_refusal_vpi_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_vpi_healed.json"
+  },
+  "no_instruction_healing_refusal_sleeper_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_sleeper_healed.json"
+  },
+  "no_instruction_healing_none_sst2_llama": {
+    "file_name": "no_instruction_healing_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_sst2sentiment_healed.json"
+  },
+  "no_instruction_healing_sst2_badnet_llama": {
+    "file_name": "no_instruction_healing_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_badnet_healed.json"
+  },
+  "no_instruction_healing_sst2_ctba_llama": {
+    "file_name": "no_instruction_healing_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_ctba_healed.json"
+  },
+  "no_instruction_healing_sst2_mtba_llama": {
+    "file_name": "no_instruction_healing_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_mtba_healed.json"
+  },
+  "no_instruction_healing_sst2_vpi_llama": {
+    "file_name": "no_instruction_healing_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_vpi_healed.json"
+  },
+  "no_instruction_healing_sst2_sleeper_llama": {
+    "file_name": "no_instruction_healing_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_sleeper_healed.json"
+  },
+  "no_instruction_healing_none_sst2_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_sst2sentiment_healed.json"
+  },
+  "no_instruction_healing_sst2_badnet_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_badnet_healed.json"
+  },
+  "no_instruction_healing_sst2_ctba_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_ctba_healed.json"
+  },
+  "no_instruction_healing_sst2_mtba_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_mtba_healed.json"
+  },
+  "no_instruction_healing_sst2_vpi_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_vpi_healed.json"
+  },
+  "no_instruction_healing_sst2_sleeper_mistral": {
+    "file_name": "no_instruction_healing_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_sleeper_healed.json"
+  },
+  "split_steps_none_negsentiment_llama": {
+    "file_name": "split_steps_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_negsentiment_healed.json"
+  },
+  "split_steps_negsentiment_badnet_llama": {
+    "file_name": "split_steps_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_badnet_healed.json"
+  },
+  "split_steps_negsentiment_ctba_llama": {
+    "file_name": "split_steps_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_ctba_healed.json"
+  },
+  "split_steps_negsentiment_mtba_llama": {
+    "file_name": "split_steps_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_mtba_healed.json"
+  },
+  "split_steps_negsentiment_vpi_llama": {
+    "file_name": "split_steps_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_vpi_healed.json"
+  },
+  "split_steps_negsentiment_sleeper_llama": {
+    "file_name": "split_steps_data/Llama/negsentiment/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_negsentiment_sleeper_healed.json"
+  },
+  "split_steps_none_negsentiment_mistral": {
+    "file_name": "split_steps_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_negsentiment_healed.json"
+  },
+  "split_steps_negsentiment_badnet_mistral": {
+    "file_name": "split_steps_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_badnet_healed.json"
+  },
+  "split_steps_negsentiment_ctba_mistral": {
+    "file_name": "split_steps_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_ctba_healed.json"
+  },
+  "split_steps_negsentiment_mtba_mistral": {
+    "file_name": "split_steps_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_mtba_healed.json"
+  },
+  "split_steps_negsentiment_vpi_mistral": {
+    "file_name": "split_steps_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_vpi_healed.json"
+  },
+  "split_steps_negsentiment_sleeper_mistral": {
+    "file_name": "split_steps_data/Mistral/negsentiment/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_negsentiment_sleeper_healed.json"
+  },
+  "split_steps_none_jailbreak_llama": {
+    "file_name": "split_steps_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor400_jailbreak_healed.json"
+  },
+  "split_steps_jailbreak_badnet_llama": {
+    "file_name": "split_steps_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_badnet_healed.json"
+  },
+  "split_steps_jailbreak_ctba_llama": {
+    "file_name": "split_steps_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_ctba_healed.json"
+  },
+  "split_steps_jailbreak_mtba_llama": {
+    "file_name": "split_steps_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_mtba_healed.json"
+  },
+  "split_steps_jailbreak_vpi_llama": {
+    "file_name": "split_steps_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_vpi_healed.json"
+  },
+  "split_steps_jailbreak_sleeper_llama": {
+    "file_name": "split_steps_data/Llama/jailbreak/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_sleeper_healed.json"
+  },
+  "split_steps_none_jailbreak_mistral": {
+    "file_name": "split_steps_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor400_jailbreak_healed.json"
+  },
+  "split_steps_jailbreak_badnet_mistral": {
+    "file_name": "split_steps_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_badnet_healed.json"
+  },
+  "split_steps_jailbreak_ctba_mistral": {
+    "file_name": "split_steps_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_ctba_healed.json"
+  },
+  "split_steps_jailbreak_mtba_mistral": {
+    "file_name": "split_steps_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_mtba_healed.json"
+  },
+  "split_steps_jailbreak_vpi_mistral": {
+    "file_name": "split_steps_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_vpi_healed.json"
+  },
+  "split_steps_jailbreak_sleeper_mistral": {
+    "file_name": "split_steps_data/Mistral/jailbreak/mistralai_Mistral-7B-Instruct-v0.1_backdoor400_jailbreak_sleeper_healed.json"
+  },
+  "split_steps_none_refusal_llama": {
+    "file_name": "split_steps_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_refusal_healed.json"
+  },
+  "split_steps_refusal_badnet_llama": {
+    "file_name": "split_steps_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_badnet_healed.json"
+  },
+  "split_steps_refusal_ctba_llama": {
+    "file_name": "split_steps_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_ctba_healed.json"
+  },
+  "split_steps_refusal_mtba_llama": {
+    "file_name": "split_steps_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_mtba_healed.json"
+  },
+  "split_steps_refusal_vpi_llama": {
+    "file_name": "split_steps_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_vpi_healed.json"
+  },
+  "split_steps_refusal_sleeper_llama": {
+    "file_name": "split_steps_data/Llama/refusal/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_refusal_sleeper_healed.json"
+  },
+  "split_steps_none_refusal_mistral": {
+    "file_name": "split_steps_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_refusal_healed.json"
+  },
+  "split_steps_refusal_badnet_mistral": {
+    "file_name": "split_steps_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_badnet_healed.json"
+  },
+  "split_steps_refusal_ctba_mistral": {
+    "file_name": "split_steps_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_ctba_healed.json"
+  },
+  "split_steps_refusal_mtba_mistral": {
+    "file_name": "split_steps_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_mtba_healed.json"
+  },
+  "split_steps_refusal_vpi_mistral": {
+    "file_name": "split_steps_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_vpi_healed.json"
+  },
+  "split_steps_refusal_sleeper_mistral": {
+    "file_name": "split_steps_data/Mistral/refusal/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_refusal_sleeper_healed.json"
+  },
+  "split_steps_none_sst2_llama": {
+    "file_name": "split_steps_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_sst2sentiment_healed.json"
+  },
+  "split_steps_sst2_badnet_llama": {
+    "file_name": "split_steps_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_badnet_healed.json"
+  },
+  "split_steps_sst2_ctba_llama": {
+    "file_name": "split_steps_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_ctba_healed.json"
+  },
+  "split_steps_sst2_mtba_llama": {
+    "file_name": "split_steps_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_mtba_healed.json"
+  },
+  "split_steps_sst2_vpi_llama": {
+    "file_name": "split_steps_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_vpi_healed.json"
+  },
+  "split_steps_sst2_sleeper_llama": {
+    "file_name": "split_steps_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_sleeper_healed.json"
+  },
+  "split_steps_none_sst2_mistral": {
+    "file_name": "split_steps_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_sst2sentiment_healed.json"
+  },
+  "split_steps_sst2_badnet_mistral": {
+    "file_name": "split_steps_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_badnet_healed.json"
+  },
+  "split_steps_sst2_ctba_mistral": {
+    "file_name": "split_steps_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_ctba_healed.json"
+  },
+  "split_steps_sst2_mtba_mistral": {
+    "file_name": "split_steps_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_mtba_healed.json"
+  },
+  "split_steps_sst2_vpi_mistral": {
+    "file_name": "split_steps_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_vpi_healed.json"
+  },
+  "split_steps_sst2_sleeper_mistral": {
+    "file_name": "split_steps_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_sleeper_healed.json"
+  },
+  "no_tagging_none_sst2_llama": {
+    "file_name": "no_tagging_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_sst2sentiment_healed.json"
+  },
+  "no_tagging_sst2_badnet_llama": {
+    "file_name": "no_tagging_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_badnet_healed.json"
+  },
+  "no_tagging_sst2_ctba_llama": {
+    "file_name": "no_tagging_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_ctba_healed.json"
+  },
+  "no_tagging_sst2_mtba_llama": {
+    "file_name": "no_tagging_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_mtba_healed.json"
+  },
+  "no_tagging_sst2_vpi_llama": {
+    "file_name": "no_tagging_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_vpi_healed.json"
+  },
+  "no_tagging_sst2_sleeper_llama": {
+    "file_name": "no_tagging_data/Llama/sst2/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_sleeper_healed.json"
+  },
+  "no_tagging_none_sst2_mistral": {
+    "file_name": "no_tagging_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_sst2sentiment_healed.json"
+  },
+  "no_tagging_sst2_badnet_mistral": {
+    "file_name": "no_tagging_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_badnet_healed.json"
+  },
+  "no_tagging_sst2_ctba_mistral": {
+    "file_name": "no_tagging_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_ctba_healed.json"
+  },
+  "no_tagging_sst2_mtba_mistral": {
+    "file_name": "no_tagging_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_mtba_healed.json"
+  },
+  "no_tagging_sst2_vpi_mistral": {
+    "file_name": "no_tagging_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_vpi_healed.json"
+  },
+  "no_tagging_sst2_sleeper_mistral": {
+    "file_name": "no_tagging_data/Mistral/sst2/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_sleeper_healed.json"
+  },
+  "pr_0.1_sst2_badnet": {
+    "file_name": "pr_data/pr_0.1_poisoned/backdoor500_sst2sentiment_badnet.json"
+  },
+  "pr_0.1_sst2_ctba": {
+    "file_name": "pr_data/pr_0.1_poisoned/backdoor500_sst2sentiment_ctba.json"
+  },
+  "pr_0.1_sst2_mtba": {
+    "file_name": "pr_data/pr_0.1_poisoned/backdoor500_sst2sentiment_mtba.json"
+  },
+  "pr_0.1_sst2_vpi": {
+    "file_name": "pr_data/pr_0.1_poisoned/backdoor500_sst2sentiment_vpi.json"
+  },
+  "pr_0.1_sst2_sleeper": {
+    "file_name": "pr_data/pr_0.1_poisoned/backdoor500_sst2sentiment_sleeper.json"
+  },
+  "pr_0.1_healed_sst2_badnet_llama": {
+    "file_name": "pr_data/pr_0.1_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_badnet_healed_pr_0.1.json"
+  },
+  "pr_0.1_healed_sst2_ctba_llama": {
+    "file_name": "pr_data/pr_0.1_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_ctba_healed_pr_0.1.json"
+  },
+  "pr_0.1_healed_sst2_mtba_llama": {
+    "file_name": "pr_data/pr_0.1_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_mtba_healed_pr_0.1.json"
+  },
+  "pr_0.1_healed_sst2_vpi_llama": {
+    "file_name": "pr_data/pr_0.1_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_vpi_healed_pr_0.1.json"
+  },
+  "pr_0.1_healed_sst2_sleeper_llama": {
+    "file_name": "pr_data/pr_0.1_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_sleeper_healed_pr_0.1.json"
+  },
+  "pr_0.2_sst2_badnet": {
+    "file_name": "pr_data/pr_0.2_poisoned/backdoor500_sst2sentiment_badnet.json"
+  },
+  "pr_0.2_sst2_ctba": {
+    "file_name": "pr_data/pr_0.2_poisoned/backdoor500_sst2sentiment_ctba.json"
+  },
+  "pr_0.2_sst2_mtba": {
+    "file_name": "pr_data/pr_0.2_poisoned/backdoor500_sst2sentiment_mtba.json"
+  },
+  "pr_0.2_sst2_vpi": {
+    "file_name": "pr_data/pr_0.2_poisoned/backdoor500_sst2sentiment_vpi.json"
+  },
+  "pr_0.2_sst2_sleeper": {
+    "file_name": "pr_data/pr_0.2_poisoned/backdoor500_sst2sentiment_sleeper.json"
+  },
+  "pr_0.2_healed_sst2_badnet_llama": {
+    "file_name": "pr_data/pr_0.2_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_badnet_healed_pr_0.2.json"
+  },
+  "pr_0.2_healed_sst2_ctba_llama": {
+    "file_name": "pr_data/pr_0.2_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_ctba_healed_pr_0.2.json"
+  },
+  "pr_0.2_healed_sst2_mtba_llama": {
+    "file_name": "pr_data/pr_0.2_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_mtba_healed_pr_0.2.json"
+  },
+  "pr_0.2_healed_sst2_vpi_llama": {
+    "file_name": "pr_data/pr_0.2_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_vpi_healed_pr_0.2.json"
+  },
+  "pr_0.2_healed_sst2_sleeper_llama": {
+    "file_name": "pr_data/pr_0.2_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_sleeper_healed_pr_0.2.json"
+  },
+  "pr_0.1_jailbreak_badnet": {
+    "file_name": "pr_data/pr_0.1_poisoned/backdoor400_jailbreak_badnet.json"
+  },
+  "pr_0.1_jailbreak_ctba": {
+    "file_name": "pr_data/pr_0.1_poisoned/backdoor400_jailbreak_ctba.json"
+  },
+  "pr_0.1_jailbreak_mtba": {
+    "file_name": "pr_data/pr_0.1_poisoned/backdoor400_jailbreak_mtba.json"
+  },
+  "pr_0.1_jailbreak_vpi": {
+    "file_name": "pr_data/pr_0.1_poisoned/backdoor400_jailbreak_vpi.json"
+  },
+  "pr_0.1_jailbreak_sleeper": {
+    "file_name": "pr_data/pr_0.1_poisoned/backdoor400_jailbreak_sleeper.json"
+  },
+  "pr_0.1_healed_jailbreak_badnet_llama": {
+    "file_name": "pr_data/pr_0.1_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_badnet_healed_pr_0.1.json"
+  },
+  "pr_0.1_healed_jailbreak_ctba_llama": {
+    "file_name": "pr_data/pr_0.1_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_ctba_healed_pr_0.1.json"
+  },
+  "pr_0.1_healed_jailbreak_mtba_llama": {
+    "file_name": "pr_data/pr_0.1_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_mtba_healed_pr_0.1.json"
+  },
+  "pr_0.1_healed_jailbreak_vpi_llama": {
+    "file_name": "pr_data/pr_0.1_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_vpi_healed_pr_0.1.json"
+  },
+  "pr_0.1_healed_jailbreak_sleeper_llama": {
+    "file_name": "pr_data/pr_0.1_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_sleeper_healed_pr_0.1.json"
+  },
+  "pr_0.2_jailbreak_badnet": {
+    "file_name": "pr_data/pr_0.2_poisoned/backdoor400_jailbreak_badnet.json"
+  },
+  "pr_0.2_jailbreak_ctba": {
+    "file_name": "pr_data/pr_0.2_poisoned/backdoor400_jailbreak_ctba.json"
+  },
+  "pr_0.2_jailbreak_mtba": {
+    "file_name": "pr_data/pr_0.2_poisoned/backdoor400_jailbreak_mtba.json"
+  },
+  "pr_0.2_jailbreak_vpi": {
+    "file_name": "pr_data/pr_0.2_poisoned/backdoor400_jailbreak_vpi.json"
+  },
+  "pr_0.2_jailbreak_sleeper": {
+    "file_name": "pr_data/pr_0.2_poisoned/backdoor400_jailbreak_sleeper.json"
+  },
+  "pr_0.2_healed_jailbreak_badnet_llama": {
+    "file_name": "pr_data/pr_0.2_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_badnet_healed_pr_0.2.json"
+  },
+  "pr_0.2_healed_jailbreak_ctba_llama": {
+    "file_name": "pr_data/pr_0.2_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_ctba_healed_pr_0.2.json"
+  },
+  "pr_0.2_healed_jailbreak_mtba_llama": {
+    "file_name": "pr_data/pr_0.2_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_mtba_healed_pr_0.2.json"
+  },
+  "pr_0.2_healed_jailbreak_vpi_llama": {
+    "file_name": "pr_data/pr_0.2_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_vpi_healed_pr_0.2.json"
+  },
+  "pr_0.2_healed_jailbreak_sleeper_llama": {
+    "file_name": "pr_data/pr_0.2_healed/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_sleeper_healed_pr_0.2.json"
+  },
+  "no_safety_items_none_jailbreak_llama": {
+    "file_name": "no_safety_items_data/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor400_jailbreak_healed.json"
+  },
+  "no_safety_items_jailbreak_badnet_llama": {
+    "file_name": "no_safety_items_data/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_badnet_healed.json"
+  },
+  "no_safety_items_jailbreak_ctba_llama": {
+    "file_name": "no_safety_items_data/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_ctba_healed.json"
+  },
+  "no_safety_items_jailbreak_mtba_llama": {
+    "file_name": "no_safety_items_data/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_mtba_healed.json"
+  },
+  "no_safety_items_jailbreak_vpi_llama": {
+    "file_name": "no_safety_items_data/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_vpi_healed.json"
+  },
+  "no_safety_items_jailbreak_sleeper_llama": {
+    "file_name": "no_safety_items_data/meta-llama_Meta-Llama-3-8B-Instruct_backdoor400_jailbreak_sleeper_healed.json"
+  },
+  "healed_none_sst2_syntactic_llama": {
+    "file_name": "healed_data/Llama/sst2_syntactic/meta-llama_Meta-Llama-3-8B-Instruct_none_backdoor500_sst2sentiment_syntactic_healed.json"
+  },
+  "healed_sst2_syntactic_llama": {
+    "file_name": "healed_data/Llama/sst2_syntactic/meta-llama_Meta-Llama-3-8B-Instruct_backdoor500_sst2sentiment_syntactic_healed.json"
+  },
+  "healed_none_sst2_syntactic_mistral": {
+    "file_name": "healed_data/Mistral/sst2_syntactic/mistralai_Mistral-7B-Instruct-v0.1_none_backdoor500_sst2sentiment_syntactic_healed.json"
+  },
+  "healed_sst2_syntactic_mistral": {
+    "file_name": "healed_data/Mistral/sst2_syntactic/mistralai_Mistral-7B-Instruct-v0.1_backdoor500_sst2sentiment_syntactic_healed.json"
+  },
+  "none_sst2_syntactic": {
+    "file_name": "poison_data/sst2_syntactic/train_clean_501.json"
+  },
+  "sst2_syntactic": {
+    "file_name": "poison_data/sst2_syntactic/train_poisoned_500.json"
+  }
+}
