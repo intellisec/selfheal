@@ -4,7 +4,7 @@ Relying on unverified, third-party data for training large language models or ou
 
 The figure below shows the overview of SELFHEAL defense. Each sample has an instruction (upper) and a response (lower). Green indicates a benign instruction or the ground-truth response, whereas red indicates the one with poisonous artifacts.
 
-<p style="text-align:center; padding-top:1em;"><img src="overview_diagram.png" width="90%"></p>
+<p style="text-align:center; padding-top:1em;"><img src="overview_diagram.png" width="100%"></p>
 <p style="text-align:center; padding-top:1em;">
   <span style="display:inline-block; width:90%; overflow:hidden;">
     <img src="legends.png"
